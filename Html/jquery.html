@@ -88,7 +88,21 @@
             $('#parrafo5').attr("name", "np5"); 
             $('#parrafo5').attr("style", "color:blue ; background-color:black");
             $('#parrafo5').attr("style", "display:none");//se sobreecribe el atributo
-                
+            });
+
+            //estilo
+            $('#btn16').click(function(){
+            $('#parrafo6').addClass('fs-4'); 
+            $('#parrafo6').addClass('text-success'); 
+            $('#parrafo6').addClass('align-middle'); 
+            });
+            $('#btn17').click(function(){
+            $('#parrafo6').removeClass('fs-4'); 
+            });
+
+            $('#btn17').click(function(){
+            $('#parrafo6').css("color", "blue"); 
+            $('#parrafo6').removeClass('text-success');
             });
 
         //cierre de jquery
@@ -130,6 +144,14 @@
         <button class="btn btn-outline-dark" id="btn13">Prepend (●´ω｀●) </button>
         <button class="btn btn-outline-dark" id="btn14">Before (●´ω｀●) </button>
         <button class="btn btn-outline-dark" id="btn15">Attr (●´ω｀●) </button>
+        <br> <hr>
+        <h3>Estilos</h3> <br>
+        <p id="parrafo6">manipular estilos del párrafo 6</p> <br>
+        
+        <button class="btn btn-outline-dark" id="btn16">AddClass (●´ω｀●) </button>
+        <button class="btn btn-outline-dark" id="btn17">Remove (●´ω｀●) </button>
+        <button class="btn btn-outline-dark" id="btn18">Css (●´ω｀●) </button>
+        
     </div>
     <!--js bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
