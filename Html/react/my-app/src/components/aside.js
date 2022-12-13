@@ -4,7 +4,7 @@ class Aside extends Component {
     render(){
         return(
             <div>
-                <p>aside </p>
+                <p>aside rosadito</p>
             </div>
         );
         

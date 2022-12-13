@@ -18,10 +18,7 @@ function App() {
     <Header />
     <Aside />
     <Container />
-    <Subcontainer />
-    <Subcontainer />
-    <Subcontainer />
-    <Advertisement/>
+    
     </div>
   );
 }
