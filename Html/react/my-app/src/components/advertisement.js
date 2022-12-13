@@ -1,15 +1,15 @@
 import React,{Component} from 'react';
 
-class Header extends Component {
+class Advertisement extends Component {
     render(){
         return(
             <div>
             
-                <h1>Header morado</h1>
+                <p>Advertisement verde</p>
             </div>
         );
         
     }
 }
 
-export default Header;
+export default Advertisement;

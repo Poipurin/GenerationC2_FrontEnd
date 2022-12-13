@@ -1,15 +1,15 @@
 import React,{Component} from 'react';
 
-class Header extends Component {
+class Wrapper extends Component {
     render(){
         return(
             <div>
             
-                <h1>Header morado</h1>
+                <p>wrapper gris</p>
             </div>
         );
         
     }
 }
 
-export default Header;
+export default Wrapper;

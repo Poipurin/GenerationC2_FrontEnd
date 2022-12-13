@@ -1,15 +1,14 @@
 import React,{Component} from 'react';
 
-class Header extends Component {
+class Container extends Component {
     render(){
         return(
             <div>
-            
-                <h1>Header morado</h1>
+                <p>esto es un párrafo en el container</p>
             </div>
         );
         
     }
 }
 
-export default Header;
+export default Container;

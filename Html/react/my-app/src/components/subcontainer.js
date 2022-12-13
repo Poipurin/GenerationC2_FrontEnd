@@ -1,15 +1,15 @@
 import React,{Component} from 'react';
 
-class Header extends Component {
+class Subcontainer extends Component {
     render(){
         return(
             <div>
             
-                <h1>Header morado</h1>
+                <p>subcontainer amarillo</p>
             </div>
         );
         
     }
 }
 
-export default Header;
+export default Subcontainer;
