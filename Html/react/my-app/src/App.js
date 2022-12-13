@@ -5,9 +5,6 @@ import Container from './components/container';
 import Wrapper from './components/wrapper';
 import './App.css';
 
-
-
-
 function App() {
   return (
     <div className="App">
