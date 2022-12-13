@@ -6,8 +6,6 @@ class Container extends Component {
         return(
             <div>
                 <Subcontainer />
-                <Subcontainer />
-                <Subcontainer />
                 <Advertisement/>
             </div>
         );
