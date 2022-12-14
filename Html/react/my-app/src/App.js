@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
 
-      <Header />
+      <Header nombre="Rick" apellido="Roll" />
       <Slider />
       <Aside />
-      <Container />
+      <Container categoria="tremenda rola"/>
 
     </div>
   );

@@ -5,7 +5,7 @@ import '../styles/css/aside.css';
 
 class Aside extends Component {
     render() {
-        return (<div className='Sidebar'>
+        return (<div className="col-2">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="../styles/img/image (6).png" />
                     <Card.Body>

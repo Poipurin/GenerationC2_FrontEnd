@@ -5,7 +5,8 @@ class Container extends Component {
     render(){
         return(
             <div>
-                <Subcontainer />
+                
+                <Subcontainer categoria={this.props.categoria}/>
                 <Advertisement/>
             </div>
         );

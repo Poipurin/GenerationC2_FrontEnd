@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand href="#home">{this.props.nombre} {this.props.apellido}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
@@ -30,6 +30,7 @@ class Header extends Component {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            
         );
 
     }

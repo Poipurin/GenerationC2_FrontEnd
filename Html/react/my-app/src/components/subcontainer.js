@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import '../styles/img/image (6).png'
+import hammu from '../styles/img/hamster1.jpg';
 
 
 class Subcontainer extends Component {
     render() {
         return (
-            <CardGroup>
+            <CardGroup className="col-8">
                 <Card>
-                    <Card.Img variant="top" src="../styles/img/image (6).png" />
+                    <Card.Img variant="top" src={hammu} height="400px"  />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -18,13 +18,13 @@ class Subcontainer extends Component {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted"> prrrrr </small>
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="../styles/img/image (6).png" />
+                    <Card.Img variant="top" src={hammu} height="400px"  />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>{this.props.categoria}</Card.Title>
                         <Card.Text>
                             This card has supporting text below as a natural lead-in to
                             additional content.{' '}
@@ -35,7 +35,7 @@ class Subcontainer extends Component {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="../styles/img/image (6).png" />
+                    <Card.Img variant="top" src={hammu} height="400px"  />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
