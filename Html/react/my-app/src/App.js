@@ -1,19 +1,16 @@
 
 import Header from './components/header';
-import Aside from './components/aside';
-import Container from './components/container';
-import Wrapper from './components/wrapper';
-import Slider from './components/slider';
 import './App.css';
+import Ejemplo from './components/ejemplo';
 
 function App() {
   return (
     <div className="App">
 
       <Header nombre="Rick" apellido="Roll" />
-      <Slider />
-      <Aside />
-      <Container categoria="tremenda rola"/>
+      <Ejemplo />
+      <Ejemplo />
+      <Ejemplo />
 
     </div>
   );
