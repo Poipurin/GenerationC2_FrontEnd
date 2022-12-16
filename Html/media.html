@@ -6,13 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <style>
+        .container {
+            background-color: antiquewhite;
+            height: 400px;
+
+        }
+
+        .divclass {
+            width: 20%;
+            height: 20%;
+            display: inline-block;
+            align-content: center;
+
+        }
+
+        #div1 {
+            background-color: darkcyan;
+
+        }
+
+        #div2 {
+            background-color: rgb(52, 93, 93);
+
+        }
+
+        #div3 {
+            background-color: rgb(59, 67, 67);
+        }
+
+        /*celular*/
+        @media screen and (min-width: 480px) {
+            .divclass {
+                width: 80%;
+                height: 80%;
+                display: inline-block;
+                background-color: blueviolet !important;
+                font-size: 10rem;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .container {
+                background-color: gainsboro;
+                height: 100%;
+            }
+
+        }
+
+        /*tablet*/
+        @media screen and (min-width: 481px) and (max-width:1023) {
+            .divclass {
+                width: 50%;
+                height: 50%;
+                display: inline-block;
+                background-color: darkslateblue;
+                font-size: 10vh;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .container {
+                background-color: gainsboro;
+                height: 100%
+            }
+
+            /*desktop*/
+            @media screen and (min-width: 1024px) {
+                .divclass {
+                    width: 20%;
+                    height: 20%;
+                    display: inline-block;
+                    font-size: 5vh;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <div id="div1"></div>
-        <div id="div2"></div>
-        <div id="div3"></div>
+        <div id="div1" class="divclass">
+            <p>Párrafo 1</p>
+        </div>
+        <div id="div2" class="divclass">
+            <p>Párrafo 2</p>
+        </div>
+        <div id="div3" class="divclass">
+            <p>Párrafo 3</p>
+        </div>
     </div>
 </body>
 

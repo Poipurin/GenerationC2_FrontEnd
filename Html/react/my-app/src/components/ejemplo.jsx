@@ -2,6 +2,7 @@ import { Button } from "bootstrap";
 import React, {Component} from"react";
 
 class Ejemplo extends Component{
+    //Estado inicial de una variable
     constructor(props){
         super(props);
         this.state={
